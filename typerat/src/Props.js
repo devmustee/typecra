@@ -24,7 +24,7 @@ class Counter extends Component<CounterProps, CounterState> {
     return (
       <div>
         <p>Count: {this.state.count}</p>
-        {/* Step 6: onClick is typed automatically, no extra work needed */}
+        {/* Step 6: onClick is typed automatically,, no extra work needed */}
         <button onClick={this.increment}>Increment</button>
       </div>
     );
